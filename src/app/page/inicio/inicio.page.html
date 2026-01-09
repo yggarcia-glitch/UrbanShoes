@@ -1,0 +1,65 @@
+<ion-header translucent="true">
+  <ion-toolbar>
+    <ion-title>UrbanShoes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen class="ion-padding">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>UrbanShoes</h1>
+    <p class="subtitle">
+      Sneakers originales, estilo urbano y envío rápido
+    </p>
+
+    <ion-button
+      expand="block"
+      shape="round"
+      size="large"
+      (click)="irATienda()">
+      Explorar tienda
+    </ion-button>
+  </section>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="featured">
+    <h2>🔥 Destacados</h2>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+            <ion-card-content>
+              <div class="product-img"></div>
+              <h3>Air Force 1</h3>
+              <p class="price">$120</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-card>
+            <ion-card-content>
+              <div class="product-img"></div>
+              <h3>Jordan Low</h3>
+              <p class="price">$135</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+
+  <!-- CONFIANZA -->
+  <section class="trust">
+    <ion-card>
+      <ion-card-content>
+        <p>✔ Pagos seguros</p>
+        <p>✔ Envíos a todo el país</p>
+        <p>✔ Calidad garantizada</p>
+      </ion-card-content>
+    </ion-card>
+  </section>
+
+</ion-content>
